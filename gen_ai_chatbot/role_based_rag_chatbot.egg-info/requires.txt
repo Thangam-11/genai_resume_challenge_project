@@ -9,6 +9,4 @@ langchain
 langchain_core
 langchain-openai
 langchain_community
-
--e .
-
+streamlit
