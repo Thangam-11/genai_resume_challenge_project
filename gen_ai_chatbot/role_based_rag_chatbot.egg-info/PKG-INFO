@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: role_based_rag_chatbot
+Version: 0.1.0
+Summary: RAG Chatbot with Role-Based Access Control
+Author: ds-rpc-01
+Requires-Python: >=3.10
+Requires-Dist: langchain_astradb
+Requires-Dist: langchain_google_genai
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-multipart
+Requires-Dist: jinja2
+Requires-Dist: python-dotenv
+Requires-Dist: langchain
+Requires-Dist: langchain_core
+Requires-Dist: langchain-openai
+Requires-Dist: langchain_community
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

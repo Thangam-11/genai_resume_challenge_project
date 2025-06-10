@@ -1,0 +1,13 @@
+astra_db:
+  collection_name:"role-based-rag-application"
+
+embedding_model:
+  provider: "openai"
+  model_name: "text-embedding-ada-002"   # or use OpenAI embedding if needed
+
+retriever:
+  top_k: 10
+
+llm:
+  provider: "openai"
+  model_name: "gpt-4"    # or "gpt-4-1106-preview" or "gpt-3.5-turbo"
