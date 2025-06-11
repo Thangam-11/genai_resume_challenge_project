@@ -1,5 +1,5 @@
-from gen_ai_chatbot.utils.model_loader import ModelLoader
-from gen_ai_chatbot.exception.exceptions import RoleBasedRagChatBot
+from utils.model_loader import ModelLoader
+from exception.exceptions import RoleBasedRagChatBot
 
 def test_model_loading():
     try:
